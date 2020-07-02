@@ -1,4 +1,4 @@
-class Student(models.Model):
+class StudentAdmin(models.Model):
     No = models.IntegerField()
     Name = models.CharField(max_length=25)
     Age = models.IntegerField()
